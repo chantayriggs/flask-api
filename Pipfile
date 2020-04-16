@@ -7,6 +7,13 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+flask-heroku = "*"
+flask-cors = "*"
+psycopg2-binary = "*"
+marshmallow-sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
